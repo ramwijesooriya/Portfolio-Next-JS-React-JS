@@ -26,14 +26,14 @@ const Header = () => {
             <motion.h1 
            f
 
-            className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>Fullstack Web developer</motion.h1>
+            className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>Full-stack Developer & AI Enthusiast</motion.h1>
             <motion.p
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:0.6,delay:0.7}}
 
             >
-                i am fullstack web developer,undergraduate in sabaragamuwa university of srilanka,i am intrest fro next js 
+             BSc (Hons) Software Engineering Undergraduate (2022–2026) at Sabaragamuwa University of Sri Lanka | Passionate about Next.js, .NET, React, JavaScript, Python, and AI/ML | Thrives on collaborative teamwork and innovative solutions.
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 

@@ -41,6 +41,7 @@ useEffect(()=>{
 <Work isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
 <Contact isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
 <Footer isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
+
 </>
   );
 }

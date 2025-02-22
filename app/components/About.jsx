@@ -41,7 +41,9 @@ const About = (isDarkMode) => {
             transition={{delay:0.8 ,duration:0.6}}
             className='flex-1'>
               <p className='mb-10 max-w-2xl font-ovo'>
-                i am fullstack web developer,undergraduate in sabaragamuwa university of srilanka i am inrest for next js with react js master
+              I’m a passionate full-stack web developer and an undergraduate at Sabaragamuwa University of Sri Lanka, specializing in building modern, scalable web applications. I have hands-on experience with Next.js, React, and .NET, along with a strong interest in AI/ML technologies.
+
+Beyond coding, I enjoy collaborating on projects using Git for version control and Docker for seamless deployment. I’m always eager to explore innovative solutions, whether it’s developing dynamic web platforms or integrating intelligent systems into real-world applications.
               </p>
               <motion.ul 
               initial={{opacity:0}}
