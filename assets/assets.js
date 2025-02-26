@@ -79,18 +79,18 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Web Poroject / MERN',
+        description: 'Convert Currency',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Ai-image generator web',
+        description: '',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Portfolio site',
+        description: 'Web project(NextJS)',
         bgImage: '/work-3.png',
     },
     {
