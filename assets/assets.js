@@ -38,7 +38,9 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import sql from './sql.png';
 import react from './react.png';
 import github from './github.png';
-import fullstack from './fullstack.png'
+import fullstack from './fullstack.png';
+import linkedin from './linkedin.png';
+import link from './link.png'
 
 
 export const assets = {
@@ -82,7 +84,9 @@ export const assets = {
     sql,
     react,
     github,
-    fullstack
+    fullstack,
+    linkedin,
+    link
 
 };
 
