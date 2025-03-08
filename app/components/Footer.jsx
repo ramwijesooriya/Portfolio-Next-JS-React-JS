@@ -18,6 +18,7 @@ const Footer = (isDarkMode) => {
                 <li><a target='_blank' href="https://github.com/ramwijesooriya">Github</a></li>
                 <li><a target='_blank' href="https://www.linkedin.com/in/asanka-wijesooriya-7a9185269/">Linkedin</a></li>
                 <li><a target='_blank' href="">Twitter</a></li>
+                
             </ul>
         </div>
     </div>

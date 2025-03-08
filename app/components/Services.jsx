@@ -2,9 +2,11 @@ import { assets, serviceData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
+import Link from 'next/link'
 
 const Services = () => {
   return (
+    
     <motion.div 
     initial={{opacity:0}}
     whileInView={{opacity:1}}
@@ -19,13 +21,13 @@ const Services = () => {
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.7,delay:0.7}}
-       className='text-center text-5xl font-ovo'>My Services</motion.h2>
+       className='text-center text-5xl font-ovo'>My Skills</motion.h2>
        <motion.p
         initial={{y:-30,opacity:0}}
         whileInView={{y:0,opacity:1}}
         transition={{duration:0.6,delay:0.9}}
        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo '>
-        i am hkajheifafah aefahjafh   ajefajfi ahefh a ajkjf ajjkf jks ff
+        I Have Technical and Non Technical Skills
        </motion.p>
        <motion.div 
         initial={{opacity:0}}
@@ -46,6 +48,7 @@ const Services = () => {
          <a href={link} className='flex items-center gap-2 text-sm mt-5'>
           Read more <Image src={assets.right_arrow} alt='' className='w-4'/>
          </a>
+        
         </motion.div>
         ))}
        </motion.div>

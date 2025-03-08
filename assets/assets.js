@@ -35,6 +35,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import sql from './sql.png';
+import react from './react.png';
+import github from './github.png';
+import fullstack from './fullstack.png'
+
 
 export const assets = {
     user_image,
@@ -73,38 +78,42 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    sql,
+    react,
+    github,
+    fullstack
 
 };
 
 export const workData = [
-    {
-        title: 'Web Poroject / MERN',
-        description: 'Convert Currency',
+    {       
+        title: 'QR Code Generator',
+        description: 'HTML / CSS / JS',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Ai-image generator web',
-        description: '',
+        title: 'Convert Currency ',
+        description: 'JS  /  M E R N',
         bgImage: '/work-2.png',
     },
     {
         title: 'Portfolio site',
-        description: 'Web project(NextJS)',
+        description: 'JS  /  NextJS',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Ai-image generator',
+        description: 'JS  / TS  / NEXT JS',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Web projects', description: 'Web development is the process of building, programming...', link: '#Nav' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.ui_icon, title: 'Collaborations & External Work', description: 'Showcasing my collaborative IEEE and external connect with team work in societies and fiel work  .', link: 'https://www.linkedin.com/posts/asanka-wijesooriya-7a9185269_aurelia-wie-ieee-activity-7230778874173829121-K4Bi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGzCjEBwFPFMbXAMmwLZGoiC2ieHiApE1o' },
+    { icon: assets.graphics_icon, title: 'Achievements & Certifications', description: 'Showcasing my accomplishments and certifications earned through learning and professional growth in software engineering.', link: '#Certifications' },
 ]
 
 export const infoList = [
@@ -114,5 +123,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode,assets.react ,assets.mongodb,, assets.firebase,  assets.sql,assets.github, assets.git
 ];
