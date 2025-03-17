@@ -33,8 +33,17 @@ const Header = () => {
             transition={{duration:0.6,delay:0.7}}
 
             >
-             BSc (Hons) Software Engineering Undergraduate (2022–2026) at Sabaragamuwa University of Sri Lanka | Passionate about Next.js, .NET, React, JavaScript, Python, and AI/ML | Thrives on collaborative teamwork and innovative solutions.
+             Aspiring Software Engineer | Intern | Specialized in React, Next.js, Laravel | Passionate about building scalable web applications.
+             <div className="flex items-center justify-center text-center">
+  <section className="text-2xl font-bold  border-2 border-gray-500 rounded-lg p-4 shadow-md max-w-lg">
+    “Make it happen now, not tomorrow. Tomorrow is a loser's excuse.”  
+    <span className="text-black font-semibold text-lg"> — Farrah Gray</span>
+  </section>
+</div>
+
             </motion.p>
+          
+
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 
                   initial={{x:-30,opacity:0}}

@@ -9,8 +9,7 @@ const About = (isDarkMode) => {
     initial={{opacity:0}}
     whileInView={{opacity:1}}
     transition={{duration:1}}
-
-    >
+>
         <motion.h4 className='text-center mb-2 text-lg font-ovo'
         initial={{opacity:0,y:-20}}
         whileInView={{opacity:1,y:0}}
@@ -26,22 +25,22 @@ const About = (isDarkMode) => {
          initial={{opacity:0}}
          whileInView={{opacity:1}}
          transition={{duration:0.8}}
-        className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
-            <motion.div 
+        className='w-full items-center my-20'>
+            {/* <motion.div 
             
             initial={{opacity:0,scale:0.9}}
              whileInView={{opacity:1,scale:1}}
              transition={{duration:0.6}}
             classNam='w-64 sm:w-80 rounded-3xl max-w-none'>
               <Image src={assets.user_image} alt='user' className=' w-[450px] h-1000px  rounded-3xl' />
-            </motion.div>
+            </motion.div> */}
             <motion.div
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{delay:0.8 ,duration:0.6}}
-            className='flex-1'>
-              <p className='mb-10 max-w-2xl font-ovo'>
-              I’m a passionate full-stack web developer and an undergraduate at Sabaragamuwa University of Sri Lanka, specializing in building modern, scalable web applications. I have hands-on experience with Next.js, React, and .NET, along with a strong interest in AI/ML technologies.
+            className=''>
+              <p className=' text-center mb-10  font-ovo'>
+              I’m a passionate full-stack web developer and an undergraduate at Sabaragamuwa University of Sri Lanka, specializing in building modern, scalable web applications. I have hands-on experience with Next.js, React, and laraval , along with a strong interest in AI/ML technologies.
 
 Beyond coding, I enjoy collaborating on projects using Git for version control and Docker for seamless deployment. I’m always eager to explore innovative solutions, whether it’s developing dynamic web platforms or integrating intelligent systems into real-world applications.
               </p>
@@ -49,7 +48,7 @@ Beyond coding, I enjoy collaborating on projects using Git for version control a
               initial={{opacity:0}}
               whileInView={{opacity:1}}
               transition={{duration:0.8,delay:1}}
-              className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+              className='grid grid-cols-1 sm:grid-cols-3 gap-6'>
 
                 {infoList.map(({icon,iconDark,title,description},index)=>(
 

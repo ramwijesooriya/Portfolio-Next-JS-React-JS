@@ -31,9 +31,16 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
       <Image src={assets.header_bg_color} alt='' className='w-full '/>
     </div>
 <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${ isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20 " : ""}`}>
+    <div className='flex'>
     <a href="https://www.linkedin.com/in/asanka-wijesooriya-7a9185269/">
-        <Image src={ isDarkMode ? assets.link : assets.linkedin} className='w-10 cursor-pointer mr-10 ' alt=''/>
+       {/* //github end linkedin icon */}
+    
+          <Image src={ isDarkMode ? assets.link : assets.linkedin} className='w-10 cursor-pointer mr-10 rounded-2xl ' alt=''/>  
     </a>
+    <a href="https://github.com/ramwijesooriya">
+    <Image  src={ isDarkMode ? assets.gthub : assets.github} className='w-10 cursor-pointer mr-10 rounded-2xl ' alt=''/>
+    </a>
+    </div>
 
 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 "}`}>
   <li><a className='font-ovo' href="#top">Home</a></li>
