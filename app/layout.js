@@ -14,7 +14,7 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Portfolio - Asanka Wijesooriya",
-  description: "A modern, responsive portfolio built with Next.js and React.js. Features include dark mode, smooth animations, GitHub project integration, and a contact form. Perfect for showcasing my work and skills.",
+  description: "Aspiring MERN Stack Engineer Intern | Full-Stack Development & DevOps | Building Scalable, High-Performance Web Applications (React, Next.js, CI/CD)",
 };
 
 export default function RootLayout({ children }) {
