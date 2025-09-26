@@ -44,6 +44,7 @@ import link from './link.png';
 import gthub from './gthub.png';
 import x from './x.png';
 import whatsapp from './whatsapp.png';
+import devops from './devops.png';
 
 
 
@@ -93,7 +94,8 @@ export const assets = {
     github,
     fullstack,
     linkedin,
-    link
+    link,
+    devops
 
 };
 
