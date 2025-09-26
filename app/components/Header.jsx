@@ -33,7 +33,7 @@ const Header = () => {
             transition={{duration:0.6,delay:0.7}}
 
             >
-             Aspiring Software Engineer | Intern | Specialized in React, Next.js, Laravel | Passionate about building scalable web applications.
+             Aspiring MERN Stack Engineer Intern | Full-Stack Development & DevOps | Building Scalable, High-Performance Web Applications (React, Next.js, CI/CD)
              <div className="flex items-center justify-center text-center">
   <section className="text-2xl font-bold  border-2 border-gray-500 rounded-lg p-4 shadow-md max-w-lg">
     “Make it happen now, not tomorrow. Tomorrow is a loser's excuse.”  
